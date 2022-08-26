@@ -5,13 +5,13 @@ import {getFirestore} from '@firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: ""
+  apiKey: "AIzaSyCZX78I2E5tMbTIxnw7RlF2uYNKIP0H2vM",
+  authDomain: "first-firebase-tutorial-21cee.firebaseapp.com",
+  projectId: "first-firebase-tutorial-21cee",
+  storageBucket: "first-firebase-tutorial-21cee.appspot.com",
+  messagingSenderId: "988649911212",
+  appId: "1:988649911212:web:7a227739c25d687c54c009",
+  measurementId: "G-MKGZWXMXXM"
 };
 
 // Initialize Firebase connection
