@@ -35,6 +35,9 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     createUser()
+    console.log('SUBMITTING');
+    setNewName('')
+    setNewAge(0)
   }
   useEffect(() => {
     const getUsers = async () => {
@@ -54,6 +57,7 @@ function App() {
           onChange={(event) => {
             setNewName(event.target.value);
           }}
+          value={newName}
         />
         <input
           type="number"
@@ -61,6 +65,7 @@ function App() {
           onChange={(event) => {
             setNewAge(event.target.value);
           }}
+          value={newAge}
         />
         <button> Create User</button>
       </form>
